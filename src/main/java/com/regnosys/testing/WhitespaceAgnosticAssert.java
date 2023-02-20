@@ -8,6 +8,6 @@ public class WhitespaceAgnosticAssert {
     }
 
     private static String normalize(String s) {
-        return s.replaceAll("\\s+", " ");
+        return s.replaceAll("\\s+", " ").trim();
     }
 }
